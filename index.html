@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>To Do list</title>
+
+        <link rel="shortcut icon" href="Plus.svg" type="image/x-icon">
+
+        <!-- <script src="index3.js"></script> -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Stylesheet.css">
+
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <header id="header">
+            <div class="headerItem">
+                <img class="headerSvg" src="Plus.svg" onclick="add()">
+            </div>
+
+            <h1 id="title" class="headerItem">To Do</h1>
+            
+            <div class="headerItem">
+                <img class="headerSvg" src="Minus.svg" onclick="empty()">
+            </div>
+
+        </header>
+        <section id="content">
+            <ul id="list">
+                <!-- <li class="item">
+                    <p class="text">Test</p>
+                    <span class="closeWrapper">
+                        <img class="close" src="Times.svg">
+                    </span>
+                </li> -->
+            </ul>
+        </section>
+    </body>
+</html>
